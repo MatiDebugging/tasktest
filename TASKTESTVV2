@@ -3,6 +3,14 @@
 
 -- Instances:
 
+
+game.StarterGui:SetCore('SendNotification', {
+        Title    = 'MatiHub FE',
+        Text     = ('Thank you for using MatiHub FE for Arsenal, Press H Or J to continue'),
+        Duration = 7,
+    })
+Wait(2)
+
 local ArsenalX = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local RoundFrame = Instance.new("ImageLabel")
