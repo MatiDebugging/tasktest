@@ -2,6 +2,12 @@
 -- Version: 3.2
 
 -- Instances:
+game.StarterGui:SetCore('SendNotification', {
+        Title    = 'MatiHub/Arsenal X',
+        Text     = ('Thank you for using MatiHub! :) info: close with H and open with J.'),
+        Duration = 13,
+    })
+    
 
 local ArsenalX = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
